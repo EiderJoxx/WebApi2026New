@@ -39,4 +39,10 @@
         public string correo { get; set; } = string.Empty;
         public int totalDirecciones { get; set; }
     }
+    public class PersonaUpdateDTO
+    {
+        public string nombre { get; set; } = string.Empty;
+        public string apellido { get; set; } = string.Empty;
+        public int edad { get; set; }
+    }
 }
